@@ -1,0 +1,604 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableViewer Snapshot UI Tests Test TableViewer Rendering With No Columns 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root tableviewer-container css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+  >
+    <table
+      class="MuiTable-root css-rqglhn-MuiTable-root"
+    >
+      <thead
+        class="MuiTableHead-root tableviewer-header css-15wwp11-MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root MuiTableRow-head tableviewer-row-header css-1q1u3t4-MuiTableRow-root"
+        />
+      </thead>
+      <tbody
+        class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+      >
+        <tr
+          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+        />
+        <tr
+          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+        />
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TableViewer Snapshot UI Tests Test TableViewer Rendering With No Columns Or Rows 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root tableviewer-container css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+  >
+    <table
+      class="MuiTable-root css-rqglhn-MuiTable-root"
+    >
+      <thead
+        class="MuiTableHead-root tableviewer-header css-15wwp11-MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root MuiTableRow-head tableviewer-row-header css-1q1u3t4-MuiTableRow-root"
+        />
+      </thead>
+      <tbody
+        class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+      />
+    </table>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TableViewer Snapshot UI Tests Test TableViewer Rendering With No Data Rows 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root tableviewer-container css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+  >
+    <table
+      class="MuiTable-root css-rqglhn-MuiTable-root"
+    >
+      <thead
+        class="MuiTableHead-root tableviewer-header css-15wwp11-MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root MuiTableRow-head tableviewer-row-header css-1q1u3t4-MuiTableRow-root"
+        >
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header css-1howxi1-MuiTableCell-root"
+            scope="col"
+          >
+            <span
+              class="MuiButtonBase-root MuiTableSortLabel-root Mui-active css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+              role="button"
+              tabindex="0"
+            >
+              Property 1
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                data-testid="ArrowDownwardIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                />
+              </svg>
+            </span>
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header css-1howxi1-MuiTableCell-root"
+            scope="col"
+          >
+            <span
+              class="MuiButtonBase-root MuiTableSortLabel-root css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+              role="button"
+              tabindex="0"
+            >
+              Property 2
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                data-testid="ArrowDownwardIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                />
+              </svg>
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+      />
+    </table>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TableViewer Snapshot UI Tests Test TableViewer Rendering With None Mapped Data Source 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root tableviewer-container css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+  >
+    <table
+      class="MuiTable-root css-rqglhn-MuiTable-root"
+    >
+      <thead
+        class="MuiTableHead-root tableviewer-header css-15wwp11-MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root MuiTableRow-head tableviewer-row-header css-1q1u3t4-MuiTableRow-root"
+        >
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header css-1howxi1-MuiTableCell-root"
+            scope="col"
+          >
+            <span
+              class="MuiButtonBase-root MuiTableSortLabel-root Mui-active css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+              role="button"
+              tabindex="0"
+            >
+              Property 1
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                data-testid="ArrowDownwardIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                />
+              </svg>
+            </span>
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header css-1howxi1-MuiTableCell-root"
+            scope="col"
+          >
+            <span
+              class="MuiButtonBase-root MuiTableSortLabel-root css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+              role="button"
+              tabindex="0"
+            >
+              Property 2
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                data-testid="ArrowDownwardIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                />
+              </svg>
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+      >
+        <tr
+          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TableViewer Snapshot UI Tests Test TableViewer Rendering With Valid Data 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root tableviewer-container css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+  >
+    <table
+      class="MuiTable-root css-rqglhn-MuiTable-root"
+    >
+      <thead
+        class="MuiTableHead-root tableviewer-header css-15wwp11-MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root MuiTableRow-head tableviewer-row-header css-1q1u3t4-MuiTableRow-root"
+        >
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header css-1howxi1-MuiTableCell-root"
+            scope="col"
+          >
+            <span
+              class="MuiButtonBase-root MuiTableSortLabel-root Mui-active css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+              role="button"
+              tabindex="0"
+            >
+              Property 1
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                data-testid="ArrowDownwardIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                />
+              </svg>
+            </span>
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header css-1howxi1-MuiTableCell-root"
+            scope="col"
+          >
+            <span
+              class="MuiButtonBase-root MuiTableSortLabel-root css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+              role="button"
+              tabindex="0"
+            >
+              Property 2
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                data-testid="ArrowDownwardIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                />
+              </svg>
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+      >
+        <tr
+          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span>
+              Some Value to Display
+            </span>
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span>
+              1
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TableViewer Snapshot UI Tests Test TableViewer Rendering With Valid Data 2`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root tableviewer-container css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+  >
+    <table
+      class="MuiTable-root css-rqglhn-MuiTable-root"
+    >
+      <thead
+        class="MuiTableHead-root tableviewer-header css-15wwp11-MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root MuiTableRow-head tableviewer-row-header css-1q1u3t4-MuiTableRow-root"
+        >
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header css-1howxi1-MuiTableCell-root"
+            scope="col"
+          >
+            <span
+              class="MuiButtonBase-root MuiTableSortLabel-root Mui-active css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+              role="button"
+              tabindex="0"
+            >
+              Property 1
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                data-testid="ArrowDownwardIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                />
+              </svg>
+            </span>
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header css-1howxi1-MuiTableCell-root"
+            scope="col"
+          >
+            <span
+              class="MuiButtonBase-root MuiTableSortLabel-root css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+              role="button"
+              tabindex="0"
+            >
+              Property 2
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                data-testid="ArrowDownwardIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                />
+              </svg>
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+      >
+        <tr
+          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span>
+              Some Value to Display
+            </span>
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span />
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <span>
+              1
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TableViewer Snapshot UI Tests Test TableViewer Rendering With Valid Data in edit mode 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root tableviewer-container css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+  >
+    <table
+      class="MuiTable-root css-rqglhn-MuiTable-root"
+    >
+      <thead
+        class="MuiTableHead-root tableviewer-header css-15wwp11-MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root MuiTableRow-head tableviewer-row-header css-1q1u3t4-MuiTableRow-root"
+        >
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header css-1howxi1-MuiTableCell-root"
+            scope="col"
+          >
+            <span
+              class="MuiButtonBase-root MuiTableSortLabel-root Mui-active css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+              role="button"
+              tabindex="0"
+            >
+              Property 1
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                data-testid="ArrowDownwardIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                />
+              </svg>
+            </span>
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header css-1howxi1-MuiTableCell-root"
+            scope="col"
+          >
+            <span
+              class="MuiButtonBase-root MuiTableSortLabel-root css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root"
+              role="button"
+              tabindex="0"
+            >
+              Property 2
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon"
+                data-testid="ArrowDownwardIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                />
+              </svg>
+            </span>
+          </th>
+          <th
+            class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall tableview-column-header tableviewer-action-cell css-1howxi1-MuiTableCell-root"
+            scope="col"
+          />
+        </tr>
+      </thead>
+      <tbody
+        class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+      >
+        <tr
+          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell-edit-mode css-dsuxgy-MuiTableCell-root"
+          >
+            <input
+              aria-autocomplete="none"
+              min=""
+              title=""
+              type="text"
+              value="Some Value to Display"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell-edit-mode css-dsuxgy-MuiTableCell-root"
+          >
+            <input
+              aria-autocomplete="none"
+              min=""
+              title=""
+              type="text"
+              value=""
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall tableviewer-action-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-ffx79z-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="DeleteIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </td>
+        </tr>
+        <tr
+          class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell-edit-mode css-dsuxgy-MuiTableCell-root"
+          >
+            <input
+              aria-autocomplete="none"
+              min=""
+              title=""
+              type="text"
+              value=""
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall table-cell-edit-mode css-dsuxgy-MuiTableCell-root"
+          >
+            <input
+              aria-autocomplete="none"
+              min=""
+              title=""
+              type="text"
+              value="1"
+            />
+          </td>
+          <td
+            class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall tableviewer-action-cell css-dsuxgy-MuiTableCell-root"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-ffx79z-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="DeleteIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;

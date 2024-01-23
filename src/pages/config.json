@@ -1,0 +1,73 @@
+{
+  "Tabs": [
+    {
+      "TabTitle": "Tab 1",
+      "TableFunction": "PatientData",
+      "TableName": "PatientData",
+      "DefaultSort": {
+        "ColumnKey": "Age",
+        "Direction": "asc"
+      },
+      "ColumnsMetadata": [
+        {
+          "Display": "Name",
+          "Key": "Name",
+          "Type": "string",
+          "PrimaryKey": true
+        },
+        {
+          "Display": "Address",
+          "Key": "Address",
+          "Type": "string"
+        },
+        {
+          "Display": "Age",
+          "Key": "Age",
+          "Type": "string"
+        },
+        {
+          "Display": "Sex",
+          "Key": "Sex",
+          "Type": "string"
+        }
+      ]
+    },
+    {
+      "TabTitle": "Tab 2",
+      "TableFunction": "PersonData",
+      "TableName": "PersonData",
+      "DefaultSort": {
+        "ColumnKey": "name",
+        "Direction": "desc"
+      },
+      "ColumnsMetadata": [
+        {
+          "Display": "name",
+          "Key": "name",
+          "Type": "string",
+          "PrimaryKey": true
+        },
+        {
+          "Display": "age",
+          "Key": "age",
+          "Type": "string"
+        },
+        {
+          "Display": "city",
+          "Key": "city",
+          "Type": "string"
+        },
+        {
+          "Display": "country",
+          "Key": "country",
+          "Type": "string"
+        },
+        {
+          "Display": "phone",
+          "Key": "phone",
+          "Type": "string"
+        }
+      ]
+    }
+  ]
+}

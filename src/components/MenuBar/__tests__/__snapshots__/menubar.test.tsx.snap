@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuBar Snapshot UI Tests Test MenuBar Rendering Empty String Title and User Name 1`] = `
+<div
+  className="menubar-container"
+>
+  <div
+    className="menubar-container-left"
+  >
+    <a
+      className="menubar-title"
+      href="/home"
+      onClick={[Function]}
+    >
+      <img
+        alt="logo"
+        className="menubar-icon"
+        src="logo.svg"
+      />
+    </a>
+    <a
+      className="menubar-item-link"
+      href="/Example1"
+      onClick={[Function]}
+    >
+      Example1
+    </a>
+    <a
+      className="menubar-item-link"
+      href="/Example2"
+      onClick={[Function]}
+    >
+      Example2
+    </a>
+  </div>
+  <div
+    className="menubar-container-right"
+  >
+    <span
+      className="menubar-username"
+    />
+  </div>
+</div>
+`;
+
+exports[`MenuBar Snapshot UI Tests Test MenuBar Rendering Normal Title and User Name 1`] = `
+<div
+  className="menubar-container"
+>
+  <div
+    className="menubar-container-left"
+  >
+    <a
+      className="menubar-title"
+      href="/home"
+      onClick={[Function]}
+    >
+      <img
+        alt="logo"
+        className="menubar-icon"
+        src="logo.svg"
+      />
+      Title for the App
+    </a>
+    <a
+      className="menubar-item-link"
+      href="/Example1"
+      onClick={[Function]}
+    >
+      Example1
+    </a>
+    <a
+      className="menubar-item-link"
+      href="/Example2"
+      onClick={[Function]}
+    >
+      Example2
+    </a>
+  </div>
+  <div
+    className="menubar-container-right"
+  >
+    <span
+      className="menubar-username"
+    >
+      Test User
+    </span>
+  </div>
+</div>
+`;
+
+exports[`MenuBar Snapshot UI Tests Test MenuBar Rendering Null Title and User Name 1`] = `
+<div
+  className="menubar-container"
+>
+  <div
+    className="menubar-container-left"
+  >
+    <a
+      className="menubar-title"
+      href="/home"
+      onClick={[Function]}
+    >
+      <img
+        alt="logo"
+        className="menubar-icon"
+        src="logo.svg"
+      />
+    </a>
+    <a
+      className="menubar-item-link"
+      href="/Example1"
+      onClick={[Function]}
+    >
+      Example1
+    </a>
+    <a
+      className="menubar-item-link"
+      href="/Example2"
+      onClick={[Function]}
+    >
+      Example2
+    </a>
+  </div>
+  <div
+    className="menubar-container-right"
+  >
+    <span
+      className="menubar-username"
+    />
+  </div>
+</div>
+`;
+
+exports[`MenuBar Snapshot UI Tests Test MenuBar Rendering Undefined Title and User Name 1`] = `
+<div
+  className="menubar-container"
+>
+  <div
+    className="menubar-container-left"
+  >
+    <a
+      className="menubar-title"
+      href="/home"
+      onClick={[Function]}
+    >
+      <img
+        alt="logo"
+        className="menubar-icon"
+        src="logo.svg"
+      />
+    </a>
+    <a
+      className="menubar-item-link"
+      href="/Example1"
+      onClick={[Function]}
+    >
+      Example1
+    </a>
+    <a
+      className="menubar-item-link"
+      href="/Example2"
+      onClick={[Function]}
+    >
+      Example2
+    </a>
+  </div>
+  <div
+    className="menubar-container-right"
+  >
+    <span
+      className="menubar-username"
+    />
+  </div>
+</div>
+`;

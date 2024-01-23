@@ -36,7 +36,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.1",
     "@mui/material": "^5.14.0",
-    "azure-kusto-data": "5.2.1",
+    "azure-kusto-data": "5.2.3",
     "azure-kusto-ingest": "5.2.1",
     "env-cmd": "^10.1.0",
     "history": "^4.10.1",

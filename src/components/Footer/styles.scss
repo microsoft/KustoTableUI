@@ -1,0 +1,26 @@
+.footer-container {
+    border-top: 1px solid #d6d6d6;
+    color: #7f7f7f;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 0 10px;
+    flex: 0 0 auto;
+  
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+  
+    .footer-container-left,
+    .footer-container-right {
+      align-items: center;
+      display: flex;
+      margin: 20px;
+  
+      svg {
+        margin-right: 5px;
+      }
+    }
+  }
+  

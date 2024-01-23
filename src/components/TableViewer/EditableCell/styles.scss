@@ -1,0 +1,36 @@
+@import '../../../styles.scss';
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.table-cell-edit-mode input,
+.table-cell-edit-mode select {
+  width: 100%;
+  font-family: $font_family;
+  border: 0px;
+}
+
+input:focus-visible {
+  outline: 0px;
+}
+
+.table-cell-edit-mode:focus-visible,
+.table-cell-edit-mode:hover {
+  outline: 1px solid black;
+}
+
+.table-cell-edit-mode-invalid {
+  border: 2px solid red !important;
+}
+
+.table-cell-edit-mode-invalid input {
+  border: 0px;
+}

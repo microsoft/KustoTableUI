@@ -1,0 +1,34 @@
+@import '../../styles.scss';
+
+.MuiPaper-root.MuiTableContainer-root {
+  overflow: hidden;
+}
+
+.tableviewer-container {
+  overflow: auto !important;
+
+  .tableviewer-header {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+  }
+
+  .tableviewer-row-header {
+    background: #eee;
+
+    .tableview-column-header {
+      font-weight: bold;
+      word-break: normal;
+    }
+  }
+
+  .MuiTableCell-root {
+    font-family: $font_family;
+  }
+
+  .tableviewer-action-cell {
+    width: 2%;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+}

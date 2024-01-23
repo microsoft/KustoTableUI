@@ -1,0 +1,105 @@
+{
+  "name": "KustoTableUI",
+  "version": "0.1.0",
+  "private": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^27.0.0",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.20",
+    "@types/react-router": "^5.1.16",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/react-test-renderer": "^18.0.0",
+    "jest-junit": "^13.0.0",
+    "jest-watch-typeahead": "^1.1.0",
+    "react-app-rewired": "^2.1.8",
+    "react-scripts": "5.0.1",
+    "react-test-renderer": "^18.2.0",
+    "ts-jest": "^28.0.0",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/material": "^5.14.0",
+    "azure-kusto-data": "5.2.1",
+    "azure-kusto-ingest": "5.2.1",
+    "env-cmd": "^10.1.0",
+    "history": "^4.10.1",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-icons": "^4.10.1",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.2.1",
+    "sass": "^1.63.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "jest": {
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover",
+      "cobertura"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts",
+      "!src/index.tsx"
+    ],
+    "coveragePathIgnorePatterns": [
+      "./src/*/*.types.{ts,tsx}",
+      "./src/index.tsx",
+      "./src/serviceWorker.ts"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "./node_modules/ts-jest"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$"
+    ]
+  },
+  "jest-junit": {
+    "suiteNameTemplate": "{filepath}",
+    "outputDirectory": ".",
+    "outputName": "kustotableUI-test-results.xml"
+  },
+  "overrides": {
+    "mini-css-extract-plugin": "2.4.5"
+  },
+  "scripts": {
+    "preinstall": "npm install --package-lock-only --ignore-scripts",
+    "build": "react-app-rewired build",
+    "build:stage": "env-cmd -f .env react-app-rewired build",
+    "build:test": "env-cmd -f .env react-app-rewired build",
+    "eject": "react-scripts eject",
+    "start": "env-cmd -f .env react-app-rewired start",
+    "test": "react-app-rewired test --reporters=default --reporters=jest-junit",
+    "test:coverage": "set CI=true && react-app-rewired test --coverage --runInBand --watchAll=false --reporters=default --reporters=jest-junit",
+    "test:ci": "set CI=true && react-app-rewired test"
+  }
+}

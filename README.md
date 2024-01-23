@@ -1,4 +1,4 @@
-# KUSTOTABLEUI
+# Kusto Table UI
 
 A component to render an editable table UI dynamically based on the schema and contents of a Kusto table.
 
